@@ -2,7 +2,7 @@
 A quadcopter developed with Arduino and built inside a lunch box.
 Um quadricóptero desenvolvido com Arduino e contruído dentro de uma marmita.
 
-# Funcionalidades em desenvolvimento
+#### Funcionalidades em desenvolvimento
 - Kalman Filter
 - PID Calibração
 - Controle de altitude
