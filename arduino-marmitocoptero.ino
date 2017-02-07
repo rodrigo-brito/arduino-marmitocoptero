@@ -7,11 +7,11 @@
 #include "rc_rx.h"
 
 #define DEBUG
-//#define DEBUG_RC
-//#define DEBUG_GYRO
-#define DEBUG_PID
-#define DEBUG_EQUILIBRIO
-#define AJUST_PID
+//#define DEBUG_RC //Print the RC information
+//#define DEBUG_GYRO //Print GYRO and ACEL information
+#define DEBUG_PID //Print PID constants information
+#define DEBUG_EQUILIBRIO //Print aceleration, roll inclination and offset
+#define AJUST_PID //Enable PID ajust by serial
 //#define DEBUG_TIME
 
 #define dt 20 //Tempo de variação do Loop 20ms
@@ -29,6 +29,7 @@
 #define LIMITE_PID 250 //Limite de aceleração para correção dos motores
 #define LIMITE_Ki 50
 
+//RC limits
 #define TROTTLE_MIN 1000 //Leitura mínima
 #define TROTTLE_INI 1100 //Início aceleração
 #define TROTTLE_MAX 2000 //Leitura máxima
